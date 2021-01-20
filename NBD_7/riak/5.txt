@@ -1,0 +1,8 @@
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Pc", "quantity": 5, "price": 266, "is_bought": false}' http://0.0.0.0:8098/buckets/s12828/keys/Mi
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:58:10 GMT
+Content-Type: application/json
+Content-Length: 0

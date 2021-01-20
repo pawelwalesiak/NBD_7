@@ -1,0 +1,4 @@
+1. use tutorial and follow steps:
+https://riak.com/posts/technical/running-riak-in-docker/index.html?p=12629.html
+2. run on port 8098
+https://labs.play-with-docker.com/

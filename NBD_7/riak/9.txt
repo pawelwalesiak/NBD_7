@@ -1,0 +1,14 @@
+[node1] (local) root@192.168.0.23 ~
+$ curl -i http://0.0.0.0:8098/buckets/s12828/keys/51qEaOqln3F6Xjorw9UULglhnjH
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvlc/+/QoRCiRMY+VIeVS9U2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s12828>; rel="up"
+Last-Modified: Tue, 19 Jan 2021 22:00:04 GMT
+ETag: "39OktZXJX77irawAkJqoBq"
+Date: Tue, 19 Jan 2021 22:02:49 GMT
+Content-Type: application/json
+Content-Length: 24
+
+{"name": "NoKeyProduct"}

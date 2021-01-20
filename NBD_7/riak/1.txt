@@ -1,0 +1,47 @@
+result 
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Br", "quantity": 1, "price": 34214, "is_bought": true}' http://0.0.0.0:8098/buckets/s12828/keys/Br
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:53:27 GMT
+Content-Type: application/json
+Content-Length: 0
+
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Bn", "quantity": 2, "price": 40, "is_bought": true}' http://0.0.0.0:8098/buckets/s12828/keys/Bn
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:53:50 GMT
+Content-Type: application/json
+Content-Length: 0
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Co", "quantity": 2, "price": 398, "is_bought": false}' http://0.0.0.0:8098/buckets/s12828/keys/Co
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:54:13 GMT
+Content-Type: application/json
+Content-Length: 0
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Mi", "quantity": 8, "price": 326, "is_bought": false}' http://0.0.0.0:8098/buckets/s12828/keys/Mi
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:54:48 GMT
+Content-Type: application/json
+Content-Length: 0
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Pc", "quantity": 15, "price": 266, "is_bought": false}' http://0.0.0.0:8098/buckets/s12828/keys/Pc
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 19 Jan 2021 21:55:07 GMT
+Content-Type: application/json
+Content-Length: 0

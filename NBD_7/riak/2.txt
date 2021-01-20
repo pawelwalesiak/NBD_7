@@ -1,0 +1,16 @@
+zad2
+
+[node1] (local) root@192.168.0.23 ~
+$ curl -i http://0.0.0.0:8098/buckets/s12828/keys/Br
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvlc/9vUuRCiRMY+VYdeZ6pt8WQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s12828>; rel="up"
+Last-Modified: Tue, 19 Jan 2021 21:35:54 GMT
+ETag: "6nfBcSW6IRdnUrFR2TgF61"
+Date: Tue, 19 Jan 2021 21:36:44 GMT
+Content-Type: application/json
+Content-Length: 64
+
+{"name": "Br", "quantity": 1, "price": 34214, "is_bought": true}[node1] (local) root@192.168.0.23 ~
